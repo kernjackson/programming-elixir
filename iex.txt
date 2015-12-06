@@ -1,0 +1,1957 @@
+Last login: Fri Dec  4 18:21:49 on ttys001
+PizzaParty:~ admin$ /Users/admin/Source/elixir/programming-elixir
+-bash: /Users/admin/Source/elixir/programming-elixir: is a directory
+PizzaParty:~ admin$ git status
+fatal: Not a git repository (or any of the parent directories): .git
+PizzaParty:~ admin$ ls
+total 304
+drwxr-xr-x+   61 admin  cloakproxy   2074 Dec  4 18:24 .
+drwxr-xr-x     6 root   admin         204 Oct 10 18:31 ..
+-r--------     1 admin  cloakproxy      7 Aug 31 20:07 .CFUserTextEncoding
+-rw-r--r--@    1 admin  cloakproxy  14340 Dec  4 06:29 .DS_Store
+drwx------   143 admin  cloakproxy   4862 Dec  3 20:05 .Trash
+drwxr-xr-x    13 admin  cloakproxy    442 Sep 17 11:31 .atom
+-rw-r--r--     1 admin  cloakproxy  23999 Sep 17 16:05 .babel.json
+-rw-------     1 admin  cloakproxy   8433 Oct 10 17:58 .bash_history
+-rw-r--r--     1 admin  cloakproxy    229 Sep 26 09:48 .bash_profile
+drwxr-xr-x    76 admin  cloakproxy   2584 Dec  4 18:25 .bash_sessions
+-rw-r--r--     1 admin  cloakproxy     95 Oct  1 14:05 .bashrc
+-rw-r--r--     1 admin  cloakproxy    390 Sep 25 07:48 .black-screen-state
+drwxr-xr-x     3 admin  cloakproxy    102 Sep 12 11:34 .cache
+drwxr-xr-x     4 admin  cloakproxy    136 Nov  5 09:08 .cocoapods
+drwx------     6 admin  cloakproxy    204 Nov 10 18:32 .config
+drwxr-xr-x     5 admin  cloakproxy    170 Sep 12 11:23 .dnx
+drwxr-xr-x     3 admin  cloakproxy    102 Sep 14 06:22 .docker
+drwxr-xr-x     3 admin  cloakproxy    102 Sep 12 11:32 .electron
+drwxr-xr-x     4 admin  cloakproxy    136 Sep 14 07:34 .gem
+-rw-r--r--     1 admin  cloakproxy     58 Oct  9 20:44 .gitconfig
+-rw-r--r--     1 admin  cloakproxy    355 Dec  4 18:24 .gitignore
+drwxr-xr-x     3 admin  cloakproxy    102 Sep 22 06:25 .heroku
+drwxr-xr-x     5 admin  cloakproxy    170 Sep  4 07:54 .hex
+-rw-r--r--     1 admin  cloakproxy    561 Sep  1 20:38 .htoprc
+drwx------     3 admin  cloakproxy    102 Oct 17 19:55 .lldb
+drwxr-xr-x     3 admin  cloakproxy    102 Sep 12 11:34 .local
+drwxr-xr-x     4 admin  cloakproxy    136 Sep  4 07:56 .mix
+-rw-r--r--     1 admin  cloakproxy     68 Sep 26 09:48 .mkshrc
+drwxr-xr-x     3 admin  cloakproxy    102 Sep  4 07:54 .node-gyp
+drwxr-xr-x  1361 admin  cloakproxy  46274 Nov 23 18:40 .npm
+-rw-------     1 admin  cloakproxy     24 Sep 24 07:13 .npmrc
+drwxr-xr-x     4 admin  cloakproxy    136 Oct  1 14:09 .particle
+drwxr-xr-x    12 admin  cloakproxy    408 Oct  1 14:00 .particledev
+-rw-r--r--     1 admin  cloakproxy    186 Sep 26 09:48 .profile
+-rw-------     1 admin  cloakproxy     78 Nov 15 18:36 .psql_history
+drwxr-xr-x    30 admin  cloakproxy   1020 Sep 26 09:48 .rvm
+-rw-r--r--     1 admin  cloakproxy  14794 Oct 14 20:20 .siegerc
+drwxr-xr-x     4 admin  cloakproxy    136 Oct  1 14:00 .spark
+-rw-------     1 admin  cloakproxy     43 Nov 24 19:52 .sqlite_history
+drwx------     3 admin  cloakproxy    102 Dec  2 20:56 .ssh
+drwxr-xr-x     6 admin  cloakproxy    204 Sep  8 18:23 .subversion
+-rw-r--r--     1 admin  cloakproxy   6789 Sep 12 11:37 .v8flags.3.28.71.19.admin.json
+drwxr-xr-x     5 admin  cloakproxy    170 Dec  2 16:46 .vim
+-rw-------     1 admin  cloakproxy  13247 Dec  4 18:24 .viminfo
+-rw-r--r--     1 admin  cloakproxy    234 Oct  7 07:15 .vimrc
+drwxr-xr-x     2 admin  cloakproxy     68 Oct  3 19:11 .wapi
+-rw-r--r--     1 admin  cloakproxy    118 Sep 26 09:48 .zlogin
+-rw-r--r--     1 admin  cloakproxy     68 Sep 26 09:48 .zshrc
+drwx------     4 admin  cloakproxy    136 Sep  2 07:13 Applications
+drwxr-xr-x    16 admin  cloakproxy    544 Oct  4 07:29 Chuthulu Crush
+drwx------+   20 admin  cloakproxy    680 Dec  2 19:43 Desktop
+drwx------+   11 admin  cloakproxy    374 Nov  2 07:29 Documents
+drwx------+  198 admin  cloakproxy   6732 Dec  3 20:05 Downloads
+drwx------@   63 admin  cloakproxy   2142 Nov 30 17:00 Library
+drwx------+    3 admin  cloakproxy    102 Aug 31 20:07 Movies
+drwx------+    4 admin  cloakproxy    136 Sep  1 06:35 Music
+drwx------+    8 admin  cloakproxy    272 Sep 18 08:57 Pictures
+drwxr-xr-x+    5 admin  cloakproxy    170 Aug 31 20:07 Public
+drwxr-xr-x    20 admin  cloakproxy    680 Nov 23 18:33 Source
+drwxr-xr-x     3 admin  cloakproxy    102 Oct 28 11:58 VirtualBox VMs
+drwxr-xr-x     6 admin  cloakproxy    204 Oct 26 18:19 npm
+PizzaParty:~ admin$ cd /Users/admin/Source/elixir/programming-elixir
+PizzaParty:programming-elixir admin$ ls
+total 32
+drwxr-xr-x   8 admin  cloakproxy   272 Dec  4 18:22 .
+drwxr-xr-x  10 admin  cloakproxy   340 Nov 18 09:14 ..
+-rw-r--r--@  1 admin  cloakproxy  6148 Dec  1 18:09 .DS_Store
+drwxr-xr-x  13 admin  cloakproxy   442 Dec  4 18:25 .git
+drwxr-xr-x   2 admin  cloakproxy    68 Dec  4 18:22 01_Red_Pill
+drwxr-xr-x  10 admin  cloakproxy   340 Dec  1 18:26 07_lists
+-rw-r--r--   1 admin  cloakproxy    85 Sep 22 20:43 list_concat.exs
+-rw-r--r--   1 admin  cloakproxy    66 Sep 22 20:56 sum.exs
+PizzaParty:programming-elixir admin$ cd 01_Red_Pill/
+PizzaParty:01_Red_Pill admin$ ls
+total 0
+drwxr-xr-x  2 admin  cloakproxy   68 Dec  4 18:22 .
+drwxr-xr-x  8 admin  cloakproxy  272 Dec  4 18:22 ..
+PizzaParty:01_Red_Pill admin$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	../.DS_Store
+
+nothing added to commit but untracked files present (use "git add" to track)
+PizzaParty:01_Red_Pill admin$ ls
+total 0
+drwxr-xr-x  2 admin  cloakproxy   68 Dec  4 18:22 .
+drwxr-xr-x  8 admin  cloakproxy  272 Dec  4 18:22 ..
+PizzaParty:01_Red_Pill admin$ pwd
+/Users/admin/Source/elixir/programming-elixir/01_Red_Pill
+PizzaParty:01_Red_Pill admin$ cd ..
+PizzaParty:programming-elixir admin$ ls
+total 32
+drwxr-xr-x   8 admin  cloakproxy   272 Dec  4 18:22 .
+drwxr-xr-x  10 admin  cloakproxy   340 Nov 18 09:14 ..
+-rw-r--r--@  1 admin  cloakproxy  6148 Dec  1 18:09 .DS_Store
+drwxr-xr-x  13 admin  cloakproxy   442 Dec  4 18:25 .git
+drwxr-xr-x   2 admin  cloakproxy    68 Dec  4 18:22 01_Red_Pill
+drwxr-xr-x  10 admin  cloakproxy   340 Dec  1 18:26 07_lists
+-rw-r--r--   1 admin  cloakproxy    85 Sep 22 20:43 list_concat.exs
+-rw-r--r--   1 admin  cloakproxy    66 Sep 22 20:56 sum.exs
+PizzaParty:programming-elixir admin$ cd 01_Red_Pill/
+PizzaParty:01_Red_Pill admin$ cd ..
+PizzaParty:programming-elixir admin$ grep Elixir *.pml | wc -l
+grep: *.pml: No such file or directory
+       0
+PizzaParty:programming-elixir admin$ cd ..
+PizzaParty:elixir admin$ cd /Users/admin/Source/elixir/programming-elixir
+PizzaParty:programming-elixir admin$ ls
+total 32
+drwxr-xr-x   8 admin  cloakproxy   272 Dec  4 18:22 .
+drwxr-xr-x  10 admin  cloakproxy   340 Nov 18 09:14 ..
+-rw-r--r--@  1 admin  cloakproxy  6148 Dec  1 18:09 .DS_Store
+drwxr-xr-x  13 admin  cloakproxy   442 Dec  4 18:25 .git
+drwxr-xr-x   2 admin  cloakproxy    68 Dec  4 18:22 01_Red_Pill
+drwxr-xr-x  10 admin  cloakproxy   340 Dec  1 18:26 07_lists
+-rw-r--r--   1 admin  cloakproxy    85 Sep 22 20:43 list_concat.exs
+-rw-r--r--   1 admin  cloakproxy    66 Sep 22 20:56 sum.exs
+PizzaParty:programming-elixir admin$ pwd
+/Users/admin/Source/elixir/programming-elixir
+PizzaParty:programming-elixir admin$ cd 01_Red_Pill/
+PizzaParty:01_Red_Pill admin$ mkdir spawn
+PizzaParty:01_Red_Pill admin$ cd spawn/
+PizzaParty:spawn admin$ vim pmap1.exs
+PizzaParty:spawn admin$ iex
+Erlang/OTP 18 [erts-7.0.3] [source] [64-bit] [smp:4:4] [async-threads:10] [hipe] [kernel-poll:false] [dtrace]
+
+Interactive Elixir (1.0.5) - press Ctrl+C to exit (type h() ENTER for help)
+iex(1)> c "pmap1.exs"
+
+== Compilation error on file pmap1.exs ==
+** (ArgumentError) cannot invoke def/2 outside module
+    (elixir) lib/kernel.ex:3563: Kernel.assert_module_scope/3
+    (elixir) lib/kernel.ex:2823: Kernel.define/4
+    (elixir) expanding macro: Kernel.def/2
+    pmap1.exs:1: (file)
+
+** (exit) shutdown: 1
+    (elixir) lib/kernel/parallel_compiler.ex:199: Kernel.ParallelCompiler.handle_failure/5
+    (elixir) lib/kernel/parallel_compiler.ex:182: Kernel.ParallelCompiler.wait_for_messages/8
+    (elixir) lib/kernel/parallel_compiler.ex:55: Kernel.ParallelCompiler.spawn_compilers/3
+       (iex) lib/iex/helpers.ex:94: IEx.Helpers.c/2
+iex(1)> c "pmap1.exs"
+BREAK: (a)bort (c)ontinue (p)roc info (i)nfo (l)oaded
+       (v)ersion (k)ill (D)b-tables (d)istribution
+^CPizzaParty:spawn admin$ vim pmap1.exs
+PizzaParty:spawn admin$ iex
+Erlang/OTP 18 [erts-7.0.3] [source] [64-bit] [smp:4:4] [async-threads:10] [hipe] [kernel-poll:false] [dtrace]
+
+Interactive Elixir (1.0.5) - press Ctrl+C to exit (type h() ENTER for help)
+iex(1)> c "pmap1.exs"
+[Parallel]
+iex(2)> result = Parallel.pmap 1..1000, &(&1 * &1)
+[1, 4, 9, 16, 25, 36, 49, 64, 81, 100, 121, 144, 169, 196, 225, 256, 289, 324,
+ 361, 400, 441, 484, 529, 576, 625, 676, 729, 784, 841, 900, 961, 1024, 1089,
+ 1156, 1225, 1296, 1369, 1444, 1521, 1600, 1681, 1764, 1849, 1936, 2025, 2116,
+ 2209, 2304, 2401, 2500, ...]
+iex(3)> result = Parallel.pmap 1..1000000, &(&1 * &1)
+[1, 4, 9, 16, 25, 36, 49, 64, 81, 100, 121, 144, 169, 196, 225, 256, 289, 324,
+ 361, 400, 441, 484, 529, 576, 625, 676, 729, 784, 841, 900, 961, 1024, 1089,
+ 1156, 1225, 1296, 1369, 1444, 1521, 1600, 1681, 1764, 1849, 1936, 2025, 2116,
+ 2209, 2304, 2401, 2500, ...]
+iex(4)> exit
+** (RuntimeError) undefined function: exit/0
+    
+iex(4)> exit
+** (RuntimeError) undefined function: exit/0
+    
+iex(4)> 
+BREAK: (a)bort (c)ontinue (p)roc info (i)nfo (l)oaded
+       (v)ersion (k)ill (D)b-tables (d)istribution
+^CPizzaParty:spawn admin$ vim pmap1.exs
+PizzaParty:spawn admin$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	../../.DS_Store
+	../
+
+nothing added to commit but untracked files present (use "git add" to track)
+PizzaParty:spawn admin$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	../../.DS_Store
+	../
+
+nothing added to commit but untracked files present (use "git add" to track)
+PizzaParty:spawn admin$ git rm --cached ../../.DS_Store
+fatal: pathspec '../../.DS_Store' did not match any files
+PizzaParty:spawn admin$ cd ..
+PizzaParty:01_Red_Pill admin$ ls
+total 0
+drwxr-xr-x  3 admin  cloakproxy  102 Dec  4 18:27 .
+drwxr-xr-x  8 admin  cloakproxy  272 Dec  4 18:22 ..
+drwxr-xr-x  4 admin  cloakproxy  136 Dec  4 18:32 spawn
+PizzaParty:01_Red_Pill admin$ cd ..
+PizzaParty:programming-elixir admin$ git rm --cached .DS_Store
+fatal: pathspec '.DS_Store' did not match any files
+PizzaParty:programming-elixir admin$ ls
+total 32
+drwxr-xr-x   8 admin  cloakproxy   272 Dec  4 18:22 .
+drwxr-xr-x  10 admin  cloakproxy   340 Nov 18 09:14 ..
+-rw-r--r--@  1 admin  cloakproxy  6148 Dec  1 18:09 .DS_Store
+drwxr-xr-x  13 admin  cloakproxy   442 Dec  4 18:33 .git
+drwxr-xr-x   3 admin  cloakproxy   102 Dec  4 18:27 01_Red_Pill
+drwxr-xr-x  10 admin  cloakproxy   340 Dec  1 18:26 07_lists
+-rw-r--r--   1 admin  cloakproxy    85 Sep 22 20:43 list_concat.exs
+-rw-r--r--   1 admin  cloakproxy    66 Sep 22 20:56 sum.exs
+PizzaParty:programming-elixir admin$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.DS_Store
+	01_Red_Pill/
+
+nothing added to commit but untracked files present (use "git add" to track)
+PizzaParty:programming-elixir admin$ git rm -r --cached .
+rm '07_lists/.karvonen.exs.swp'
+rm '07_lists/Elixir.Karvonen.beam'
+rm '07_lists/Elixir.MyList.WeatherHistory.beam'
+rm '07_lists/Elixir.MyList.beam'
+rm '07_lists/Elixir.WeatherHistory.beam'
+rm '07_lists/karvonen.exs'
+rm '07_lists/mylist.exs'
+rm '07_lists/weather.exs'
+rm 'list_concat.exs'
+rm 'sum.exs'
+PizzaParty:programming-elixir admin$ git add .
+PizzaParty:programming-elixir admin$ git commit -am "Remove ignored files"
+[master 9533086] Remove ignored files
+ 3 files changed, 7 insertions(+)
+ create mode 100644 .DS_Store
+ create mode 100644 01_Red_Pill/spawn/Elixir.Parallel.beam
+ create mode 100644 01_Red_Pill/spawn/pmap1.exs
+PizzaParty:programming-elixir admin$ git status
+On branch master
+nothing to commit, working directory clean
+PizzaParty:programming-elixir admin$ iex
+Erlang/OTP 18 [erts-7.0.3] [source] [64-bit] [smp:4:4] [async-threads:10] [hipe] [kernel-poll:false] [dtrace]
+
+Interactive Elixir (1.0.5) - press Ctrl+C to exit (type h() ENTER for help)
+iex(1)> h
+
+                                  IEx.Helpers                                  
+
+Welcome to Interactive Elixir. You are currently seeing the documentation for
+the module IEx.Helpers which provides many helpers to make Elixir's shell more
+joyful to work with.
+
+This message was triggered by invoking the helper h(), usually referred to as
+h/0 (since it expects 0 arguments).
+
+There are many other helpers available:
+
+  • c/2       — compiles a file at the given path
+  • cd/1      — changes the current directory
+  • clear/0   — clears the screen
+  • flush/0   — flushes all messages sent to the shell
+  • h/0       — prints this help message
+  • h/1       — prints help for the given module, function or macro
+  • l/1       — loads the given module's beam code and purges the current
+    version
+  • ls/0      — lists the contents of the current directory
+  • ls/1      — lists the contents of the specified directory
+  • pwd/0     — prints the current working directory
+  • r/1       — recompiles and reloads the given module's source file
+  • respawn/0 — respawns the current shell
+  • s/1       — prints spec information
+  • t/1       — prints type information
+  • v/0       — prints the history of commands evaluated in the session
+  • v/1       — retrieves the nth value from the history
+  • import_file/1
+    ┃         — evaluates the given file in the shell's context
+
+
+Help for functions in this module can be consulted directly from the command
+line, as an example, try:
+
+┃ h(c/2)
+
+You can also retrieve the documentation for any module or function. Try these:
+
+┃ h(Enum)
+┃ h(Enum.reverse/1)
+
+To discover all available functions for a module, type the module name
+followed by a dot, then press tab to trigger autocomplete. For example:
+
+┃ Enum.
+
+To learn more about IEx as a whole, just type h(IEx).
+
+iex(2)> h IO
+
+                                      IO                                       
+
+Functions handling IO.
+
+Many functions in this module expects an IO device as argument. An IO device
+must be a pid or an atom representing a process. For convenience, Elixir
+provides :stdio and :stderr as shortcuts to Erlang's :standard_io and
+:standard_error.
+
+The majority of the functions expect char data, i.e. strings or lists of
+characters and strings. In case another type is given, it will do a conversion
+to string via the String.Chars protocol (as shown in typespecs).
+
+The functions starting with bin* expects iodata as argument, i.e. binaries or
+lists of bytes and binaries.
+
+IO devices
+
+An IO device may be an atom or a pid. In case it is an atom, the atom must be
+the name of a registered process. However, there are three exceptions for this
+rule:
+
+  • :standard_io - when the :standard_io atom is given, it is treated as a
+    shortcut for Process.group_leader
+  • :stdio - is a shortcut for :standard_io
+  • :stderr - is a shortcut for :standard_error
+
+iex(3)> h atom
+No documentation for atom was found
+iex(4)> ht stdio
+** (RuntimeError) undefined function: stdio/0
+    
+iex(4)> h IO
+
+                                      IO                                       
+
+Functions handling IO.
+
+Many functions in this module expects an IO device as argument. An IO device
+must be a pid or an atom representing a process. For convenience, Elixir
+provides :stdio and :stderr as shortcuts to Erlang's :standard_io and
+:standard_error.
+
+The majority of the functions expect char data, i.e. strings or lists of
+characters and strings. In case another type is given, it will do a conversion
+to string via the String.Chars protocol (as shown in typespecs).
+
+The functions starting with bin* expects iodata as argument, i.e. binaries or
+lists of bytes and binaries.
+
+IO devices
+
+An IO device may be an atom or a pid. In case it is an atom, the atom must be
+the name of a registered process. However, there are three exceptions for this
+rule:
+
+  • :standard_io - when the :standard_io atom is given, it is treated as a
+    shortcut for Process.group_leader
+  • :stdio - is a shortcut for :standard_io
+  • :stderr - is a shortcut for :standard_error
+
+iex(5)> h IEx.configure
+
+                            def configure(options)                             
+
+Configures IEx.
+
+The supported options are: :colors, :inspect, :default_prompt, :alive_prompt
+and :history_size.
+
+Colors
+
+A keyword list that encapsulates all color settings used by the shell. See
+documentation for the IO.ANSI module for the list of supported colors and
+attributes.
+
+The value is a keyword list. List of supported keys:
+
+  • :enabled      - boolean value that allows for switching the coloring
+    on and off
+  • :eval_result  - color for an expression's resulting value
+  • :eval_info    - … various informational messages
+  • :eval_error   - … error messages
+  • :stack_app    - … the app in stack traces
+  • :stack_info   - … the remaining info in stacktraces
+  • :ls_directory - … for directory entries (ls helper)
+  • :ls_device    - … device entries (ls helper)
+
+When printing documentation, IEx will convert the markdown documentation to
+ANSI as well. Those can be configured via:
+
+  • :doc_code        — the attributes for code blocks (cyan, bright)
+  • :doc_inline_code - inline code (cyan)
+  • :doc_headings    - h1 and h2 (yellow, bright)
+  • :doc_title       — the overall heading for the output
+    (reverse,yellow,bright)
+  • :doc_bold        - (bright)
+  • :doc_underline   - (underline)
+
+Inspect
+
+A keyword list containing inspect options used by the shell when printing
+results of expression evaluation. Defailt to pretty formatting with a limit of
+50 entries.
+
+See Inspect.Opts for the full list of options.
+
+History size
+
+Number of expressions and their results to keep in the history. The value is
+an integer. When it is negative, the history is unlimited.
+
+Prompt
+
+This is an option determining the prompt displayed to the user when awaiting
+input.
+
+The value is a keyword list. Two prompt types:
+
+  • :default_prompt - used when Node.alive? returns false
+  • :alive_prompt   - used when Node.alive? returns true
+
+The part of the listed in the following of the prompt string is replaced.
+
+  • %counter - the index of the history
+  • %prefix  - a prefix given by IEx.Server
+  • %node    - the name of the local node
+
+iex(6)> h IEx.configure:doc_headings
+** (SyntaxError) iex:6: keyword argument must be followed by space after: configure:
+    
+iex(6)> h IEx.configure.doc_headings
+** (UndefinedFunctionError) undefined function: IEx.configure/0
+    (iex) IEx.configure()
+iex(6)> h doc_headings              
+No documentation for doc_headings was found
+iex(7)> h IO.ansi
+No documentation for IO.ansi was found
+iex(8)> h IO.ANSI
+
+                                    IO.ANSI                                    
+
+Functionality to render ANSI escape sequences
+(http://en.wikipedia.org/wiki/ANSI_escape_code) —  characters embedded in text
+used to control formatting, color, and other output options on video text
+terminals.
+
+iex(9)> h
+
+                                  IEx.Helpers                                  
+
+Welcome to Interactive Elixir. You are currently seeing the documentation for
+the module IEx.Helpers which provides many helpers to make Elixir's shell more
+joyful to work with.
+
+This message was triggered by invoking the helper h(), usually referred to as
+h/0 (since it expects 0 arguments).
+
+There are many other helpers available:
+
+  • c/2       — compiles a file at the given path
+  • cd/1      — changes the current directory
+  • clear/0   — clears the screen
+  • flush/0   — flushes all messages sent to the shell
+  • h/0       — prints this help message
+  • h/1       — prints help for the given module, function or macro
+  • l/1       — loads the given module's beam code and purges the current
+    version
+  • ls/0      — lists the contents of the current directory
+  • ls/1      — lists the contents of the specified directory
+  • pwd/0     — prints the current working directory
+  • r/1       — recompiles and reloads the given module's source file
+  • respawn/0 — respawns the current shell
+  • s/1       — prints spec information
+  • t/1       — prints type information
+  • v/0       — prints the history of commands evaluated in the session
+  • v/1       — retrieves the nth value from the history
+  • import_file/1
+    ┃         — evaluates the given file in the shell's context
+
+
+Help for functions in this module can be consulted directly from the command
+line, as an example, try:
+
+┃ h(c/2)
+
+You can also retrieve the documentation for any module or function. Try these:
+
+┃ h(Enum)
+┃ h(Enum.reverse/1)
+
+To discover all available functions for a module, type the module name
+followed by a dot, then press tab to trigger autocomplete. For example:
+
+┃ Enum.
+
+To learn more about IEx as a whole, just type h(IEx).
+
+iex(10)> exit
+** (RuntimeError) undefined function: exit/0
+    
+iex(10)> x
+** (RuntimeError) undefined function: x/0
+    
+iex(10)> x
+** (RuntimeError) undefined function: x/0
+    
+iex(10)> 
+BREAK: (a)bort (c)ontinue (p)roc info (i)nfo (l)oaded
+       (v)ersion (k)ill (D)b-tables (d)istribution
+^CPizzaParty:programming-elixir admin$ vim ~/.iex.exs
+PizzaParty:programming-elixir admin$ iex
+Erlang/OTP 18 [erts-7.0.3] [source] [64-bit] [smp:4:4] [async-threads:10] [hipe] [kernel-poll:false] [dtrace]
+
+Interactive Elixir (1.0.5) - press Ctrl+C to exit (type h() ENTER for help)
+iex(1)> h IEx.confgiure
+No documentation for IEx.confgiure was found
+iex(2)> h IEx.configure
+
+                            def configure(options)                             
+
+Configures IEx.
+
+The supported options are: :colors, :inspect, :default_prompt, :alive_prompt
+and :history_size.
+
+Colors
+
+A keyword list that encapsulates all color settings used by the shell. See
+documentation for the IO.ANSI module for the list of supported colors and
+attributes.
+
+The value is a keyword list. List of supported keys:
+
+  • :enabled      - boolean value that allows for switching the coloring
+    on and off
+  • :eval_result  - color for an expression's resulting value
+  • :eval_info    - … various informational messages
+  • :eval_error   - … error messages
+  • :stack_app    - … the app in stack traces
+  • :stack_info   - … the remaining info in stacktraces
+  • :ls_directory - … for directory entries (ls helper)
+  • :ls_device    - … device entries (ls helper)
+
+When printing documentation, IEx will convert the markdown documentation to
+ANSI as well. Those can be configured via:
+
+  • :doc_code        — the attributes for code blocks (cyan, bright)
+  • :doc_inline_code - inline code (cyan)
+  • :doc_headings    - h1 and h2 (yellow, bright)
+  • :doc_title       — the overall heading for the output
+    (reverse,yellow,bright)
+  • :doc_bold        - (bright)
+  • :doc_underline   - (underline)
+
+Inspect
+
+A keyword list containing inspect options used by the shell when printing
+results of expression evaluation. Defailt to pretty formatting with a limit of
+50 entries.
+
+See Inspect.Opts for the full list of options.
+
+History size
+
+Number of expressions and their results to keep in the history. The value is
+an integer. When it is negative, the history is unlimited.
+
+Prompt
+
+This is an option determining the prompt displayed to the user when awaiting
+input.
+
+The value is a keyword list. Two prompt types:
+
+  • :default_prompt - used when Node.alive? returns false
+  • :alive_prompt   - used when Node.alive? returns true
+
+The part of the listed in the following of the prompt string is replaced.
+
+  • %counter - the index of the history
+  • %prefix  - a prefix given by IEx.Server
+  • %node    - the name of the local node
+
+iex(3)> 
+BREAK: (a)bort (c)ontinue (p)roc info (i)nfo (l)oaded
+       (v)ersion (k)ill (D)b-tables (d)istribution
+^CPizzaParty:programming-elixir admin$ ls
+total 32
+drwxr-xr-x   8 admin  staff   272 Dec  4 18:22 .
+drwxr-xr-x  10 admin  staff   340 Nov 18 09:14 ..
+-rw-r--r--@  1 admin  staff  6148 Dec  1 18:09 .DS_Store
+drwxr-xr-x  13 admin  staff   442 Dec  4 18:34 .git
+drwxr-xr-x   3 admin  staff   102 Dec  4 18:27 01_Red_Pill
+drwxr-xr-x  10 admin  staff   340 Dec  1 18:26 07_lists
+-rw-r--r--   1 admin  staff    85 Sep 22 20:43 list_concat.exs
+-rw-r--r--   1 admin  staff    66 Sep 22 20:56 sum.exs
+PizzaParty:programming-elixir admin$ cd 01_Red_Pill/
+PizzaParty:01_Red_Pill admin$ l
+-bash: l: command not found
+PizzaParty:01_Red_Pill admin$ ls
+total 0
+drwxr-xr-x  3 admin  staff  102 Dec  4 18:27 .
+drwxr-xr-x  8 admin  staff  272 Dec  4 18:22 ..
+drwxr-xr-x  4 admin  staff  136 Dec  4 18:32 spawn
+PizzaParty:01_Red_Pill admin$ mkdir intro
+PizzaParty:01_Red_Pill admin$ cd intro/
+PizzaParty:intro admin$ vim hello.exs
+PizzaParty:intro admin$ elixir hello.exs
+Hello, World!
+PizzaParty:intro admin$ iex
+Erlang/OTP 18 [erts-7.0.3] [source] [64-bit] [smp:4:4] [async-threads:10] [hipe] [kernel-poll:false] [dtrace]
+
+Interactive Elixir (1.0.5) - press Ctrl+C to exit (type h() ENTER for help)
+iex(1)> c "hello.exs"
+Hello, World!
+[]
+iex(2)> a = 1
+1
+iex(3)> a + 3
+4
+iex(4)> a = 1
+1
+iex(5)> 1 = a
+1
+iex(6)> 2 = a
+** (MatchError) no match of right hand side value: 1
+    
+iex(6)> a = 2
+2
+iex(7)> 1 = a
+** (MatchError) no match of right hand side value: 2
+    
+iex(7)> 2 = 1
+** (MatchError) no match of right hand side value: 1
+    
+iex(7)> [ "Humperdinck", "Buttercup", "Fezzik" ]
+["Humperdinck", "Buttercup", "Fezzik"]
+iex(8)> [ "asdf", "zxcv", "qwer" ]
+["asdf", "zxcv", "qwer"]
+iex(9)> [ "asdf", ["asdf, 12 ] ]
+...(9)> list = [ 1 , 2, 3]
+...(9)> list = [ 1 , 2, 3 ]
+...(9)> 
+BREAK: (a)bort (c)ontinue (p)roc info (i)nfo (l)oaded
+       (v)ersion (k)ill (D)b-tables (d)istribution
+c
+
+BREAK: (a)bort (c)ontinue (p)roc info (i)nfo (l)oaded
+       (v)ersion (k)ill (D)b-tables (d)istribution
+^CPizzaParty:intro admin$ iex
+Erlang/OTP 18 [erts-7.0.3] [source] [64-bit] [smp:4:4] [async-threads:10] [hipe] [kernel-poll:false] [dtrace]
+
+Interactive Elixir (1.0.5) - press Ctrl+C to exit (type h() ENTER for help)
+iex(1)> list = [ 1, 2, 3]
+[1, 2, 3]
+iex(2)> list = [1, 2, 3]
+[1, 2, 3]
+iex(3)> [a, b, c] = list
+[1, 2, 3]
+iex(4)> a
+1
+iex(5)> b
+2
+iex(6)> c
+3
+iex(7)> list = [1, 2, [3, 4, 5]]
+[1, 2, [3, 4, 5]]
+iex(8)> [a, b, c ] = list
+[1, 2, [3, 4, 5]]
+iex(9)> a
+1
+iex(10)> b
+2
+iex(11)> c
+[3, 4, 5]
+iex(12)> :calendar.local_time()
+{{2015, 12, 4}, {19, 19, 39}}
+iex(13)> :calendar.universal_time()
+{{2015, 12, 5}, {1, 19, 52}}
+iex(14)> h :calendar.local_time()  
+:calendar was not compiled with docs
+iex(15)> h calendar.local_time() 
+** (RuntimeError) undefined function: calendar/0
+    
+iex(15)> h calendar                
+No documentation for calendar was found
+iex(16)> h :calendar
+:calendar is an Erlang module and, as such, it does not have Elixir-style docs
+iex(17)> h IO
+
+                                      IO                                       
+
+Functions handling IO.
+
+Many functions in this module expects an IO device as argument. An IO device
+must be a pid or an atom representing a process. For convenience, Elixir
+provides :stdio and :stderr as shortcuts to Erlang's :standard_io and
+:standard_error.
+
+The majority of the functions expect char data, i.e. strings or lists of
+characters and strings. In case another type is given, it will do a conversion
+to string via the String.Chars protocol (as shown in typespecs).
+
+The functions starting with bin* expects iodata as argument, i.e. binaries or
+lists of bytes and binaries.
+
+IO devices
+
+An IO device may be an atom or a pid. In case it is an atom, the atom must be
+the name of a registered process. However, there are three exceptions for this
+rule:
+
+  • :standard_io - when the :standard_io atom is given, it is treated as a
+    shortcut for Process.group_leader
+  • :stdio - is a shortcut for :standard_io
+  • :stderr - is a shortcut for :standard_error
+
+iex(18)> h CALENDAR
+Could not load module CALENDAR, got: nofile
+iex(19)> h local.time
+** (RuntimeError) undefined function: local/0
+    
+iex(19)> 
+BREAK: (a)bort (c)ontinue (p)roc info (i)nfo (l)oaded
+       (v)ersion (k)ill (D)b-tables (d)istribution
+^CPizzaParty:intro admin$ mix calednar
+** (Mix) The task calednar could not be found
+PizzaParty:intro admin$ mix calendar
+** (Mix) The task calendar could not be found
+PizzaParty:intro admin$ iex
+Erlang/OTP 18 [erts-7.0.3] [source] [64-bit] [smp:4:4] [async-threads:10] [hipe] [kernel-poll:false] [dtrace]
+
+Interactive Elixir (1.0.5) - press Ctrl+C to exit (type h() ENTER for help)
+iex(1)> :calendar.universal_time()
+{{2015, 12, 5}, {1, 23, 53}}
+iex(2)> 
+BREAK: (a)bort (c)ontinue (p)roc info (i)nfo (l)oaded
+       (v)ersion (k)ill (D)b-tables (d)istribution
+^CPizzaParty:intro admin$ ls
+total 8
+drwxr-xr-x  3 admin  staff  102 Dec  4 18:44 .
+drwxr-xr-x  4 admin  staff  136 Dec  4 18:43 ..
+-rw-r--r--  1 admin  staff   24 Dec  4 18:44 hello.exs
+PizzaParty:intro admin$ cd ..
+PizzaParty:01_Red_Pill admin$ ls
+total 0
+drwxr-xr-x  4 admin  staff  136 Dec  4 18:43 .
+drwxr-xr-x  8 admin  staff  272 Dec  4 18:22 ..
+drwxr-xr-x  3 admin  staff  102 Dec  4 18:44 intro
+drwxr-xr-x  4 admin  staff  136 Dec  4 18:32 spawn
+PizzaParty:01_Red_Pill admin$ cd ..
+PizzaParty:programming-elixir admin$ ls
+total 32
+drwxr-xr-x   8 admin  staff   272 Dec  4 18:22 .
+drwxr-xr-x  10 admin  staff   340 Nov 18 09:14 ..
+-rw-r--r--@  1 admin  staff  6148 Dec  1 18:09 .DS_Store
+drwxr-xr-x  13 admin  staff   442 Dec  4 18:34 .git
+drwxr-xr-x   4 admin  staff   136 Dec  4 18:43 01_Red_Pill
+drwxr-xr-x  10 admin  staff   340 Dec  1 18:26 07_lists
+-rw-r--r--   1 admin  staff    85 Sep 22 20:43 list_concat.exs
+-rw-r--r--   1 admin  staff    66 Sep 22 20:56 sum.exs
+PizzaParty:programming-elixir admin$ cd 01_Red_Pill/
+PizzaParty:01_Red_Pill admin$ ls
+total 0
+drwxr-xr-x  4 admin  staff  136 Dec  4 18:43 .
+drwxr-xr-x  8 admin  staff  272 Dec  4 18:22 ..
+drwxr-xr-x  3 admin  staff  102 Dec  4 18:44 intro
+drwxr-xr-x  4 admin  staff  136 Dec  4 18:32 spawn
+PizzaParty:01_Red_Pill admin$ cd spawn
+PizzaParty:spawn admin$ cd ../..
+PizzaParty:programming-elixir admin$ ls
+total 32
+drwxr-xr-x   8 admin  staff   272 Dec  4 18:22 .
+drwxr-xr-x  10 admin  staff   340 Nov 18 09:14 ..
+-rw-r--r--@  1 admin  staff  6148 Dec  1 18:09 .DS_Store
+drwxr-xr-x  13 admin  staff   442 Dec  4 18:34 .git
+drwxr-xr-x   4 admin  staff   136 Dec  4 18:43 01_Red_Pill
+drwxr-xr-x  10 admin  staff   340 Dec  1 18:26 07_lists
+-rw-r--r--   1 admin  staff    85 Sep 22 20:43 list_concat.exs
+-rw-r--r--   1 admin  staff    66 Sep 22 20:56 sum.exs
+PizzaParty:programming-elixir admin$ cd ..
+PizzaParty:elixir admin$ ls
+total 24
+drwxr-xr-x  10 admin  staff   340 Nov 18 09:14 .
+drwxr-xr-x  20 admin  staff   680 Nov 23 18:33 ..
+-rw-r--r--@  1 admin  staff  8196 Dec  1 16:26 .DS_Store
+drwxr-xr-x   4 admin  staff   136 Dec  1 16:26 Exercises for Programmers
+drwxr-xr-x   3 admin  staff   102 Oct 10 16:04 github
+drwxr-xr-x  13 admin  staff   442 Nov  5 10:33 gutenex
+drwxr-xr-x   8 admin  staff   272 Dec  4 18:22 programming-elixir
+drwxr-xr-x   6 admin  staff   204 Oct 13 07:28 programming-phoenix
+drwxr-xr-x   3 admin  staff   102 Sep 13 12:51 renatomoya
+drwxr-xr-x  14 admin  staff   476 Oct 20 19:21 rest_api
+PizzaParty:elixir admin$ cd Exercises\ for\ Programmers/
+PizzaParty:Exercises for Programmers admin$ ls
+total 16
+drwxr-xr-x   4 admin  staff   136 Dec  1 16:26 .
+drwxr-xr-x  10 admin  staff   340 Nov 18 09:14 ..
+-rw-r--r--@  1 admin  staff  6148 Dec  1 16:26 .DS_Store
+drwxr-xr-x  16 admin  staff   544 Nov 18 09:15 solutions
+PizzaParty:Exercises for Programmers admin$ cd ..
+PizzaParty:elixir admin$ mkdir elixir-school
+PizzaParty:elixir admin$ ls
+total 24
+drwxr-xr-x  11 admin  staff   374 Dec  4 19:27 .
+drwxr-xr-x  20 admin  staff   680 Nov 23 18:33 ..
+-rw-r--r--@  1 admin  staff  8196 Dec  1 16:26 .DS_Store
+drwxr-xr-x   4 admin  staff   136 Dec  1 16:26 Exercises for Programmers
+drwxr-xr-x   2 admin  staff    68 Dec  4 19:27 elixir-school
+drwxr-xr-x   3 admin  staff   102 Oct 10 16:04 github
+drwxr-xr-x  13 admin  staff   442 Nov  5 10:33 gutenex
+drwxr-xr-x   8 admin  staff   272 Dec  4 18:22 programming-elixir
+drwxr-xr-x   6 admin  staff   204 Oct 13 07:28 programming-phoenix
+drwxr-xr-x   3 admin  staff   102 Sep 13 12:51 renatomoya
+drwxr-xr-x  14 admin  staff   476 Oct 20 19:21 rest_api
+PizzaParty:elixir admin$ cd elixir-school/
+PizzaParty:elixir-school admin$ ls
+total 0
+drwxr-xr-x   2 admin  staff   68 Dec  4 19:27 .
+drwxr-xr-x  11 admin  staff  374 Dec  4 19:27 ..
+PizzaParty:elixir-school admin$ ls
+total 0
+drwxr-xr-x   2 admin  staff   68 Dec  4 19:27 .
+drwxr-xr-x  11 admin  staff  374 Dec  4 19:27 ..
+PizzaParty:elixir-school admin$ vim time_service.exs
+PizzaParty:elixir-school admin$ mix time_service.exs 
+** (Mix) The task time_service.exs could not be found
+PizzaParty:elixir-school admin$ ls
+total 8
+drwxr-xr-x   3 admin  staff  102 Dec  4 19:28 .
+drwxr-xr-x  11 admin  staff  374 Dec  4 19:27 ..
+-rw-r--r--   1 admin  staff   61 Dec  4 19:28 time_service.exs
+PizzaParty:elixir-school admin$ mix time_service.exs
+** (Mix) The task time_service.exs could not be found
+PizzaParty:elixir-school admin$ vim time_service.exs
+PizzaParty:elixir-school admin$ mix time_service.exs
+** (Mix) The task time_service.exs could not be found
+PizzaParty:elixir-school admin$ vim time_service.exs
+PizzaParty:elixir-school admin$ mix time_service.exs
+** (Mix) The task time_service.exs could not be found
+PizzaParty:elixir-school admin$ mv time_service.ex
+usage: mv [-f | -i | -n] [-v] source target
+       mv [-f | -i | -n] [-v] source ... directory
+PizzaParty:elixir-school admin$ mv time_service.exs time_service.ex
+PizzaParty:elixir-school admin$ ls
+total 8
+drwxr-xr-x   3 admin  staff  102 Dec  4 19:32 .
+drwxr-xr-x  11 admin  staff  374 Dec  4 19:27 ..
+-rw-r--r--   1 admin  staff   82 Dec  4 19:31 time_service.ex
+PizzaParty:elixir-school admin$ mix time_service.ex
+** (Mix) The task time_service.ex could not be found
+PizzaParty:elixir-school admin$ mix time
+** (Mix) The task time could not be found
+PizzaParty:elixir-school admin$ iex
+Erlang/OTP 18 [erts-7.0.3] [source] [64-bit] [smp:4:4] [async-threads:10] [hipe] [kernel-poll:false] [dtrace]
+
+Interactive Elixir (1.0.5) - press Ctrl+C to exit (type h() ENTER for help)
+iex(1)> c "time_service.ex"
+[TimeServer]
+iex(2)> time
+** (RuntimeError) undefined function: time/0
+    
+iex(2)> 
+BREAK: (a)bort (c)ontinue (p)roc info (i)nfo (l)oaded
+       (v)ersion (k)ill (D)b-tables (d)istribution
+PizzaParty:elixir-school admin$ iex
+Erlang/OTP 18 [erts-7.0.3] [source] [64-bit] [smp:4:4] [async-threads:10] [hipe] [kernel-poll:false] [dtrace]
+
+Interactive Elixir (1.0.5) - press Ctrl+C to exit (type h() ENTER for help)
+iex(1)> c "time_service.ex"
+
+== Compilation error on file time_service.ex ==
+** (SyntaxError) time_service.ex:2: syntax error before: do
+    (elixir) lib/kernel/parallel_compiler.ex:95: anonymous fn/4 in Kernel.ParallelCompiler.spawn_compilers/8
+
+** (exit) shutdown: 1
+    (elixir) lib/kernel/parallel_compiler.ex:199: Kernel.ParallelCompiler.handle_failure/5
+    (elixir) lib/kernel/parallel_compiler.ex:182: Kernel.ParallelCompiler.wait_for_messages/8
+    (elixir) lib/kernel/parallel_compiler.ex:55: Kernel.ParallelCompiler.spawn_compilers/3
+       (iex) lib/iex/helpers.ex:94: IEx.Helpers.c/2
+iex(1)> c "time_service.ex"
+time_service.ex:1: warning: redefining module TimeServer
+[TimeServer]
+iex(2)> TimeServer.time().
+...(2)> TimeServer.time().
+...(2)> TimeServer.time().
+...(2)> c "time_service.ex"
+iex:1: warning: an alias must expand to an atom at compilation time but got TimeServer.time()
+iex:1: warning: an alias must expand to an atom at compilation time but got :elixir_aliases.concat([TimeServer.time(), :TimeServer]).time()
+** (FunctionClauseError) no function clause matching in :elixir_aliases.do_concat/2
+    (elixir) src/elixir_aliases.erl:115: :elixir_aliases.do_concat([{{2015, 12, 5}, {1, 35, 27}}, :TimeServer], "Elixir")
+    (elixir) src/elixir_aliases.erl:103: :elixir_aliases.concat/1
+iex(2)> 
+BREAK: (a)bort (c)ontinue (p)roc info (i)nfo (l)oaded
+       (v)ersion (k)ill (D)b-tables (d)istribution
+^CPizzaParty:elixir-school admin$ mix time_service.ex
+** (Mix) The task time_service.ex could not be found
+PizzaParty:elixir-school admin$ iex
+Erlang/OTP 18 [erts-7.0.3] [source] [64-bit] [smp:4:4] [async-threads:10] [hipe] [kernel-poll:false] [dtrace]
+
+Interactive Elixir (1.0.5) - press Ctrl+C to exit (type h() ENTER for help)
+iex(1)> c "time_service.ex"
+time_service.ex:1: warning: redefining module TimeServer
+[TimeServer]
+iex(2)> TimeServer.time().
+...(2)> TimeServer.time() 
+iex:1: warning: an alias must expand to an atom at compilation time but got TimeServer.time()
+** (Protocol.UndefinedError) protocol String.Chars not implemented for {{2015, 12, 5}, {1, 36, 11}}
+    (elixir) lib/string/chars.ex:3: String.Chars.impl_for!/1
+    (elixir) lib/string/chars.ex:17: String.Chars.to_string/1
+    (elixir) lib/io.ex:426: IO.puts/2
+iex(2)> TimeServer.hello().
+...(2)> TimeServer.hello().
+...(2)> c "time_service.ex"
+iex:1: warning: an alias must expand to an atom at compilation time but got TimeServer.hello()
+** (UndefinedFunctionError) undefined function: TimeServer.hello/0
+    TimeServer.hello()
+iex(2)> TimeServer.hello   
+** (UndefinedFunctionError) undefined function: TimeServer.hello/0
+    TimeServer.hello()
+iex(2)> c("module_name.ex")
+[ModuleName]
+iex(3)> ModuleName.hello
+Hello World
+:ok
+iex(4)> c("time_service.ex")
+[TimeService]
+iex(5)> TimeService.hello
+Hello
+:ok
+iex(6)> c("time_service.ex")
+
+== Compilation error on file time_service.ex ==
+** (SyntaxError) time_service.ex:5: syntax error before: do
+    (elixir) lib/kernel/parallel_compiler.ex:95: anonymous fn/4 in Kernel.ParallelCompiler.spawn_compilers/8
+
+** (exit) shutdown: 1
+    (elixir) lib/kernel/parallel_compiler.ex:199: Kernel.ParallelCompiler.handle_failure/5
+    (elixir) lib/kernel/parallel_compiler.ex:182: Kernel.ParallelCompiler.wait_for_messages/8
+    (elixir) lib/kernel/parallel_compiler.ex:55: Kernel.ParallelCompiler.spawn_compilers/3
+       (iex) lib/iex/helpers.ex:94: IEx.Helpers.c/2
+iex(6)> c("time_service.ex")
+
+== Compilation error on file time_service.ex ==
+** (SyntaxError) time_service.ex:5: syntax error before: do
+    (elixir) lib/kernel/parallel_compiler.ex:95: anonymous fn/4 in Kernel.ParallelCompiler.spawn_compilers/8
+
+** (exit) shutdown: 1
+    (elixir) lib/kernel/parallel_compiler.ex:199: Kernel.ParallelCompiler.handle_failure/5
+    (elixir) lib/kernel/parallel_compiler.ex:182: Kernel.ParallelCompiler.wait_for_messages/8
+    (elixir) lib/kernel/parallel_compiler.ex:55: Kernel.ParallelCompiler.spawn_compilers/3
+       (iex) lib/iex/helpers.ex:94: IEx.Helpers.c/2
+iex(6)> c("time_service.ex")
+
+== Compilation error on file time_service.ex ==
+** (SyntaxError) time_service.ex:8: syntax error before: do
+    (elixir) lib/kernel/parallel_compiler.ex:95: anonymous fn/4 in Kernel.ParallelCompiler.spawn_compilers/8
+
+** (exit) shutdown: 1
+    (elixir) lib/kernel/parallel_compiler.ex:199: Kernel.ParallelCompiler.handle_failure/5
+    (elixir) lib/kernel/parallel_compiler.ex:182: Kernel.ParallelCompiler.wait_for_messages/8
+    (elixir) lib/kernel/parallel_compiler.ex:55: Kernel.ParallelCompiler.spawn_compilers/3
+       (iex) lib/iex/helpers.ex:94: IEx.Helpers.c/2
+iex(6)> c("time_service.ex")
+time_service.ex:1: warning: redefining module TimeService
+[TimeService]
+iex(7)> TimeService.world   
+World
+:ok
+iex(8)> TimeService.hello | TimeService.world
+Hello
+World
+** (RuntimeError) undefined function: |/2
+    
+iex(8)> c("time_service.ex")                 
+
+== Compilation error on file time_service.ex ==
+** (SyntaxError) time_service.ex:8: syntax error before: do
+    (elixir) lib/kernel/parallel_compiler.ex:95: anonymous fn/4 in Kernel.ParallelCompiler.spawn_compilers/8
+
+** (exit) shutdown: 1
+    (elixir) lib/kernel/parallel_compiler.ex:199: Kernel.ParallelCompiler.handle_failure/5
+    (elixir) lib/kernel/parallel_compiler.ex:182: Kernel.ParallelCompiler.wait_for_messages/8
+    (elixir) lib/kernel/parallel_compiler.ex:55: Kernel.ParallelCompiler.spawn_compilers/3
+       (iex) lib/iex/helpers.ex:94: IEx.Helpers.c/2
+iex(8)> c("time_service.ex")
+time_service.ex:1: warning: redefining module TimeService
+[TimeService]
+iex(9)> TimeService.hello | TimeService.world | TimeService.getTime
+Hello
+World
+** (Protocol.UndefinedError) protocol String.Chars not implemented for {{2015, 12, 5}, {1, 42, 30}}
+    (elixir) lib/string/chars.ex:3: String.Chars.impl_for!/1
+    (elixir) lib/string/chars.ex:17: String.Chars.to_string/1
+    (elixir) lib/io.ex:426: IO.puts/2
+iex(9)> IO.puts 'hello'
+hello
+:ok
+iex(10)> IO.puts calendar.universal_time(0
+...(10)> IO.puts calendar.universal_time(0
+BREAK: (a)bort (c)ontinue (p)roc info (i)nfo (l)oaded
+       (v)ersion (k)ill (D)b-tables (d)istribution
+^[[A^CPizzaParty:elixir-school admin$ iex
+Erlang/OTP 18 [erts-7.0.3] [source] [64-bit] [smp:4:4] [async-threads:10] [hipe] [kernel-poll:false] [dtrace]
+
+Interactive Elixir (1.0.5) - press Ctrl+C to exit (type h() ENTER for help)
+iex(1)> puts 'asdf'
+** (RuntimeError) undefined function: puts/1
+    
+iex(1)> IO.puts calendar.universal_time()
+** (RuntimeError) undefined function: calendar/0
+    
+iex(1)> IO.puts :calendar.universal_time()
+** (Protocol.UndefinedError) protocol String.Chars not implemented for {{2015, 12, 5}, {1, 45, 17}}
+    (elixir) lib/string/chars.ex:3: String.Chars.impl_for!/1
+    (elixir) lib/string/chars.ex:17: String.Chars.to_string/1
+    (elixir) lib/io.ex:426: IO.puts/2
+iex(1)> to_string :calendar.universal_time()
+** (Protocol.UndefinedError) protocol String.Chars not implemented for {{2015, 12, 5}, {1, 46, 4}}
+    (elixir) lib/string/chars.ex:3: String.Chars.impl_for!/1
+    (elixir) lib/string/chars.ex:17: String.Chars.to_string/1
+iex(1)> c "time_serice.ex"                  
+** (ArgumentError) could not find files /Users/admin/Source/elixir/elixir-school/time_serice.ex
+    (iex) lib/iex/helpers.ex:82: IEx.Helpers.c/2
+iex(1)> c "time_service.ex"
+
+== Compilation error on file time_service.ex ==
+** (SyntaxError) time_service.ex:9: syntax error before: '|>'
+    (elixir) lib/kernel/parallel_compiler.ex:95: anonymous fn/4 in Kernel.ParallelCompiler.spawn_compilers/8
+
+** (exit) shutdown: 1
+    (elixir) lib/kernel/parallel_compiler.ex:199: Kernel.ParallelCompiler.handle_failure/5
+    (elixir) lib/kernel/parallel_compiler.ex:182: Kernel.ParallelCompiler.wait_for_messages/8
+    (elixir) lib/kernel/parallel_compiler.ex:55: Kernel.ParallelCompiler.spawn_compilers/3
+       (iex) lib/iex/helpers.ex:94: IEx.Helpers.c/2
+iex(1)> c "time_service.ex"
+
+== Compilation error on file time_service.ex ==
+** (SyntaxError) time_service.ex:9: syntax error before: '|>'
+    (elixir) lib/kernel/parallel_compiler.ex:95: anonymous fn/4 in Kernel.ParallelCompiler.spawn_compilers/8
+
+** (exit) shutdown: 1
+    (elixir) lib/kernel/parallel_compiler.ex:199: Kernel.ParallelCompiler.handle_failure/5
+    (elixir) lib/kernel/parallel_compiler.ex:182: Kernel.ParallelCompiler.wait_for_messages/8
+    (elixir) lib/kernel/parallel_compiler.ex:55: Kernel.ParallelCompiler.spawn_compilers/3
+       (iex) lib/iex/helpers.ex:94: IEx.Helpers.c/2
+iex(1)> c "time_service.ex"
+
+== Compilation error on file time_service.ex ==
+** (SyntaxError) time_service.ex:10: syntax error before: '|>'
+    (elixir) lib/kernel/parallel_compiler.ex:95: anonymous fn/4 in Kernel.ParallelCompiler.spawn_compilers/8
+
+** (exit) shutdown: 1
+    (elixir) lib/kernel/parallel_compiler.ex:199: Kernel.ParallelCompiler.handle_failure/5
+    (elixir) lib/kernel/parallel_compiler.ex:182: Kernel.ParallelCompiler.wait_for_messages/8
+    (elixir) lib/kernel/parallel_compiler.ex:55: Kernel.ParallelCompiler.spawn_compilers/3
+       (iex) lib/iex/helpers.ex:94: IEx.Helpers.c/2
+iex(1)> c "time_service.ex"
+time_service.ex:1: warning: redefining module TimeService
+
+== Compilation error on file time_service.ex ==
+** (CompileError) time_service.ex:12: function puts/1 undefined
+    (stdlib) lists.erl:1337: :lists.foreach/2
+    (stdlib) erl_eval.erl:669: :erl_eval.do_apply/6
+
+** (exit) shutdown: 1
+    (elixir) lib/kernel/parallel_compiler.ex:199: Kernel.ParallelCompiler.handle_failure/5
+    (elixir) lib/kernel/parallel_compiler.ex:182: Kernel.ParallelCompiler.wait_for_messages/8
+    (elixir) lib/kernel/parallel_compiler.ex:55: Kernel.ParallelCompiler.spawn_compilers/3
+       (iex) lib/iex/helpers.ex:94: IEx.Helpers.c/2
+iex(1)> c "time_service.ex"
+time_service.ex:1: warning: redefining module TimeService
+
+== Compilation error on file time_service.ex ==
+** (CompileError) time_service.ex:12: function puts/1 undefined
+    (stdlib) lists.erl:1337: :lists.foreach/2
+    (stdlib) erl_eval.erl:669: :erl_eval.do_apply/6
+
+** (exit) shutdown: 1
+    (elixir) lib/kernel/parallel_compiler.ex:199: Kernel.ParallelCompiler.handle_failure/5
+    (elixir) lib/kernel/parallel_compiler.ex:182: Kernel.ParallelCompiler.wait_for_messages/8
+    (elixir) lib/kernel/parallel_compiler.ex:55: Kernel.ParallelCompiler.spawn_compilers/3
+       (iex) lib/iex/helpers.ex:94: IEx.Helpers.c/2
+iex(1)> c "time_service.ex"
+time_service.ex:1: warning: redefining module TimeService
+
+== Compilation error on file time_service.ex ==
+** (CompileError) time_service.ex:12: function puts/1 undefined
+    (stdlib) lists.erl:1337: :lists.foreach/2
+    (stdlib) erl_eval.erl:669: :erl_eval.do_apply/6
+
+** (exit) shutdown: 1
+    (elixir) lib/kernel/parallel_compiler.ex:199: Kernel.ParallelCompiler.handle_failure/5
+    (elixir) lib/kernel/parallel_compiler.ex:182: Kernel.ParallelCompiler.wait_for_messages/8
+    (elixir) lib/kernel/parallel_compiler.ex:55: Kernel.ParallelCompiler.spawn_compilers/3
+       (iex) lib/iex/helpers.ex:94: IEx.Helpers.c/2
+iex(1)> c "time_service.ex"
+time_service.ex:1: warning: redefining module TimeService
+[TimeService]
+iex(2)> TimeService.getTime
+asdf
+:ok
+iex(3)> c "time_service.ex"
+time_service.ex:1: warning: redefining module TimeService
+[TimeService]
+iex(4)> TimeService.getTime
+"asdf"
+asdf
+:ok
+iex(5)> TimeService.getTime
+"asdf"
+asdf
+:ok
+iex(6)> c "time_service.ex"
+time_service.ex:1: warning: redefining module TimeService
+[TimeService]
+iex(7)> TimeService.getTime
+{{2015, 12, 5}, {1, 54, 31}}
+** (Protocol.UndefinedError) protocol String.Chars not implemented for {{2015, 12, 5}, {1, 54, 31}}
+    (elixir) lib/string/chars.ex:3: String.Chars.impl_for!/1
+    (elixir) lib/string/chars.ex:17: String.Chars.to_string/1
+    (elixir) lib/io.ex:426: IO.puts/2
+iex(7)> c "time_service.ex"
+time_service.ex:1: warning: redefining module TimeService
+[TimeService]
+iex(8)> TimeService.getTime
+{{2015, 12, 5}, {1, 55, 20}}
+{{2015, 12, 5}, {1, 55, 20}}
+iex(9)> c "time_service.ex"
+time_service.ex:1: warning: redefining module TimeService
+time_service.ex:8: warning: an alias must expand to an atom at compilation time but got IO.inspect(:calendar.universal_time())
+[TimeService]
+iex(10)> TimeService.getTime
+{{2015, 12, 5}, {2, 3, 6}}
+** (FunctionClauseError) no function clause matching in :elixir_aliases.do_concat/2
+    (elixir) src/elixir_aliases.erl:115: :elixir_aliases.do_concat([{{2015, 12, 5}, {2, 3, 6}}, :String, :Chars], "Elixir")
+    (elixir) src/elixir_aliases.erl:103: :elixir_aliases.concat/1
+iex(10)> h String.Chars
+
+                                 String.Chars                                  
+
+The String.Chars protocol is responsible for converting a structure to a
+Binary (only if applicable). The only function required to be implemented is
+to_string which does the conversion.
+
+The to_string function automatically imported by Kernel invokes this protocol.
+String interpolation also invokes to_string in its arguments. For example,
+"foo#{bar}" is the same as "foo" <> to_string(bar).
+
+iex(11)> c "time_service.ex"
+time_service.ex:1: warning: redefining module TimeService
+[TimeService]
+iex(12)> TimeService.getTime
+{{2015, 12, 5}, {2, 4, 3}}
+** (Protocol.UndefinedError) protocol String.Chars not implemented for {{2015, 12, 5}, {2, 4, 3}}
+    (elixir) lib/string/chars.ex:3: String.Chars.impl_for!/1
+    (elixir) lib/string/chars.ex:17: String.Chars.to_string/1
+iex(12)> c "time_service.ex"
+time_service.ex:1: warning: redefining module TimeService
+[TimeService]
+iex(13)> TimeService.getTime
+3
+"3"
+iex(14)> c "time_service.ex"
+time_service.ex:1: warning: redefining module TimeService
+time_service.ex:15: warning: binary construction will fail because of a type mismatch
+[TimeService]
+iex(15)> TimeService.getTime
+** (ArgumentError) argument error
+    time_service.ex:15: TimeService.getTime/0
+iex(15)> 
+BREAK: (a)bort (c)ontinue (p)roc info (i)nfo (l)oaded
+       (v)ersion (k)ill (D)b-tables (d)istribution
+^CPizzaParty:elixir-school admin$ ls
+total 64
+drwxr-xr-x   8 admin  staff    272 Dec  4 20:06 .
+drwxr-xr-x  11 admin  staff    374 Dec  4 19:27 ..
+-rw-r--r--   1 admin  staff  12288 Dec  4 20:07 .time_service.ex.swp
+-rw-r--r--   1 admin  staff   1268 Dec  4 19:39 Elixir.ModuleName.beam
+-rw-r--r--   1 admin  staff   1268 Dec  4 19:35 Elixir.TimeServer.beam
+-rw-r--r--   1 admin  staff   1636 Dec  4 20:06 Elixir.TimeService.beam
+-rw-r--r--   1 admin  staff     75 Dec  4 19:39 module_name.ex
+-rw-r--r--   1 admin  staff    281 Dec  4 20:06 time_service.ex
+PizzaParty:elixir-school admin$ cd ..
+PizzaParty:elixir admin$ ls
+total 24
+drwxr-xr-x  11 admin  staff   374 Dec  4 19:27 .
+drwxr-xr-x  20 admin  staff   680 Nov 23 18:33 ..
+-rw-r--r--@  1 admin  staff  8196 Dec  1 16:26 .DS_Store
+drwxr-xr-x   4 admin  staff   136 Dec  1 16:26 Exercises for Programmers
+drwxr-xr-x   8 admin  staff   272 Dec  4 20:06 elixir-school
+drwxr-xr-x   3 admin  staff   102 Oct 10 16:04 github
+drwxr-xr-x  13 admin  staff   442 Nov  5 10:33 gutenex
+drwxr-xr-x   8 admin  staff   272 Dec  4 18:22 programming-elixir
+drwxr-xr-x   6 admin  staff   204 Oct 13 07:28 programming-phoenix
+drwxr-xr-x   3 admin  staff   102 Sep 13 12:51 renatomoya
+drwxr-xr-x  14 admin  staff   476 Oct 20 19:21 rest_api
+PizzaParty:elixir admin$ cd programming-elixir/
+PizzaParty:programming-elixir admin$ ls
+total 32
+drwxr-xr-x   8 admin  staff   272 Dec  4 18:22 .
+drwxr-xr-x  11 admin  staff   374 Dec  4 19:27 ..
+-rw-r--r--@  1 admin  staff  6148 Dec  1 18:09 .DS_Store
+drwxr-xr-x  13 admin  staff   442 Dec  4 18:34 .git
+drwxr-xr-x   4 admin  staff   136 Dec  4 18:43 01_Red_Pill
+drwxr-xr-x  10 admin  staff   340 Dec  1 18:26 07_lists
+-rw-r--r--   1 admin  staff    85 Sep 22 20:43 list_concat.exs
+-rw-r--r--   1 admin  staff    66 Sep 22 20:56 sum.exs
+PizzaParty:programming-elixir admin$ cd 01_Red_Pill/
+PizzaParty:01_Red_Pill admin$ iex
+Erlang/OTP 18 [erts-7.0.3] [source] [64-bit] [smp:4:4] [async-threads:10] [hipe] [kernel-poll:false] [dtrace]
+
+Interactive Elixir (1.0.5) - press Ctrl+C to exit (type h() ENTER for help)
+iex(1)> list = [1, 2, 3]
+[1, 2, 3]
+iex(2)> [a, 2, b ] = list
+[1, 2, 3]
+iex(3)> a
+1
+iex(4)> b
+3
+iex(5)> 2
+2
+iex(6)> a = [1, 2, 3]
+[1, 2, 3]
+iex(7)> a = 4
+4
+iex(8)> 4 = a
+4
+iex(9)> [a, b] = [1, 2, 3]
+** (MatchError) no match of right hand side value: [1, 2, 3]
+    
+iex(9)> [a, b] = [[1, 2, 3], 4]
+[[1, 2, 3], 4]
+iex(10)> a [[1, 2, 3]]
+** (RuntimeError) undefined function: a/1
+    
+iex(10)> a = [[1, 2, 3]]
+[[1, 2, 3]]
+iex(11)> [a] = [[1, 2, 3]]
+[[1, 2, 3]]
+iex(12)> [[a]] = [[1, 2, 3]]
+** (MatchError) no match of right hand side value: [[1, 2, 3]]
+    
+iex(12)> [a, a] = [1, 1]
+[1, 1]
+iex(13)> 1
+1
+iex(14)> a
+1
+iex(15)> [a, a] = [1, 2]
+** (MatchError) no match of right hand side value: [1, 2]
+    
+iex(15)> a = 1
+1
+iex(16)> a = 2
+2
+iex(17)> ^a = 1
+** (MatchError) no match of right hand side value: 1
+    
+iex(17)> [^a, 2, 3] = [1, 2, 3]
+** (MatchError) no match of right hand side value: [1, 2, 3]
+    
+iex(17)> [a,b,a] = [1,2,3]
+** (MatchError) no match of right hand side value: [1, 2, 3]
+    
+iex(17)> [a,b,a]=[1,1,2]
+** (MatchError) no match of right hand side value: [1, 1, 2]
+    
+iex(17)> [a,b,a]=[1,2,1]
+[1, 2, 1]
+iex(18)> [a,b,a]=[1,2,3]
+** (MatchError) no match of right hand side value: [1, 2, 3]
+    
+iex(18)> [a,b,a]=[1,1,2]
+** (MatchError) no match of right hand side value: [1, 1, 2]
+    
+iex(18)> a=1
+1
+iex(19)> ^a = 2
+** (MatchError) no match of right hand side value: 2
+    
+iex(19)> ^a = 1
+1
+iex(20)> list1 = [3,2,1]
+[3, 2, 1]
+iex(21)> list2 ] [4 | list1 ]
+** (SyntaxError) iex:21: unexpected token: ]
+    
+iex(21)> list2 ] = [4 | list1 ]
+** (SyntaxError) iex:21: unexpected token: ]
+    
+iex(21)> list2 = [4 | list1 ]  
+[4, 3, 2, 1]
+iex(22)> list3 = [5 | list2 ]
+[5, 4, 3, 2, 1]
+iex(23)> list4 = [6 | list 2]
+** (RuntimeError) undefined function: list/1
+    
+iex(23)> list4 = [6 | list 1]
+** (RuntimeError) undefined function: list/1
+    
+iex(23)> list4 = [6 | list 3]
+** (RuntimeError) undefined function: list/1
+    
+iex(23)> list4 = [6 | list 4]
+** (RuntimeError) undefined function: list/1
+    
+iex(23)> list4 = [6 | list1] 
+[6, 3, 2, 1]
+iex(24)> Regex.run ~r{[aeiou]}, "caterpillar"
+["a"]
+iex(25)> Regex.scan ~r{[aeiou]}, "caterpillar"
+[["a"], ["e"], ["i"], ["a"]]
+iex(26)> {date, time} = {{2015, 12, 4}, {19, 19, 39}}
+{{2015, 12, 4}, {19, 19, 39}}
+iex(27)> date
+{2015, 12, 4}
+iex(28)> time
+{19, 19, 39}
+iex(29)> {year, month, day} = date
+{2015, 12, 4}
+iex(30)> year
+2015
+iex(31)> :calendar.local_time()
+{{2015, 12, 5}, {11, 49, 44}}
+iex(32)> {{year, month, day}, {hour, minute, second}} = :calendar.local_time()
+{{2015, 12, 5}, {11, 50, 58}}
+iex(33)> map(year, "-", month)
+** (RuntimeError) undefined function: map/3
+    
+iex(33)> h map
+No documentation for map was found
+iex(34)> Enum.reduce(1..100)
+** (UndefinedFunctionError) undefined function: Enum.reduce/1
+    (elixir) Enum.reduce(1..100)
+iex(34)> Enum.reduce(a,b)
+** (Protocol.UndefinedError) protocol Enumerable not implemented for 1
+    (elixir) lib/enum.ex:1: Enumerable.impl_for!/1
+    (elixir) lib/enum.ex:112: Enumerable.reduce/3
+    (elixir) lib/enum.ex:1301: Enum.reduce/2
+iex(34)> Enum.reduce(:calendar.local_time())
+** (UndefinedFunctionError) undefined function: Enum.reduce/1
+    (elixir) Enum.reduce({{2015, 12, 5}, {11, 56, 35}})
+iex(34)> Enum.reduce(["now", "is", "the", "time"])
+** (UndefinedFunctionError) undefined function: Enum.reduce/1
+    (elixir) Enum.reduce(["now", "is", "the", "time"])
+iex(34)> {{year, month, day}, {hour, minute, second}} = :calendar.local_time()
+{{2015, 12, 5}, {11, 58, 6}}
+iex(35)> puts year
+** (RuntimeError) undefined function: puts/1
+    
+iex(35)> year
+2015
+iex(36)> year-month
+2003
+iex(37)> Regex.run ~r{[aeiou]}, "caterpillar"
+["a"]
+iex(38)> Regex.scan ~r{[aeiou]}, "caterpillar"
+[["a"], ["e"], ["i"], ["a"]]
+iex(39)> Regex.split ~r{[aeiou]}, "caterpillar"
+["c", "t", "rp", "ll", "r"]
+iex(40)> Regex.replace ~r{[aeiou]}, "caterpillar"
+** (UndefinedFunctionError) undefined function: Regex.replace/2
+    (elixir) Regex.replace(~r/[aeiou]/, "caterpillar")
+iex(40)> Regex.replace ~r{[aeiou]}, "caterpillar", "*"
+"c*t*rp*ll*r"
+iex(41)> self
+#PID<0.59.0>
+iex(42)> puts year
+** (RuntimeError) undefined function: puts/1
+    
+iex(42)> year
+2015
+iex(43)> IO.puts year
+2015
+:ok
+iex(44)> IO.puts year + month
+2027
+:ok
+iex(45)> IO.puts year, month 
+** (CaseClauseError) no case clause matching: {2015}
+    (elixir) lib/io.ex:421: IO.puts/2
+iex(45)> [1,2,3] ++ [4,5,6]
+[1, 2, 3, 4, 5, 6]
+iex(46)> [1,2,3] ++ [1,4,5,6]
+[1, 2, 3, 1, 4, 5, 6]
+iex(47)> [1,2,3,4] -- [2,4]
+[1, 3]
+iex(48)> 1 in [1,2,3,4]
+true
+iex(49)> "wombat" in [1,2,3,4]
+false
+iex(50)> [ name: "Dave", city: "Dallas", likes: "Programming" ]
+[name: "Dave", city: "Dallas", likes: "Programming"]
+iex(51)> [1, fred: 1, dave: 2]
+[1, {:fred, 1}, {:dave, 2}]
+iex(52)> {1, fred: 1, dave: 2}
+{1, [fred: 1, dave: 2]}
+iex(53)> states = %{ "AL" => "Alabama", "WI" => "Wisconsin" } %{"AL" => "Alabama", "WI" => "Wisconsin"}
+** (SyntaxError) iex:53: syntax error before: '%{}'
+    
+iex(53)> states = %{ "AL" => "Alabama", "WI" => "Wisconsin" } %{"AL" => "Alabama", "WI" => "Wisconsin"}
+** (SyntaxError) iex:53: syntax error before: '%{}'
+    
+iex(53)> states = %{ "AL" => "Alabama", "WI" => "Wisconsin" }          %{"AL" => "Alabama", "WI" => "Wisconsin"}
+iex(54)> repoonse_types = %{ { :error, :enoent } => : fatal,
+** (SyntaxError) iex:54: invalid token: : fatal,
+    
+iex(54)>  { : error, :busy } => :retry }
+** (SyntaxError) iex:54: invalid token: : error, :busy } => :retry }
+    
+iex(54)> repoonse_types = %{ { :error, :enoent } => : fatal, { :error, :busy } => :retry }
+** (SyntaxError) iex:54: invalid token: : fatal, { :error, :busy } => :retry }
+    
+iex(54)> response_types = %{ { :error, :enoent } => :fatal { :error, :busy } => :retry }      
+** (SyntaxError) iex:54: syntax error before: '{'
+    
+iex(54)> response_types = %{ { :error, :enoent } => :fatal, { :error, :busy } => :retry }
+%{{:error, :busy} => :retry, {:error, :enoent} => :fatal}
+iex(55)> response_types[{:error,:busy}]
+:retry
+iex(56)> colors = %{ red: 0xff0000, green: 0x00ff00, blue: 0x0000ff } %{blue: 255, green: 65280, red: 16711680}
+** (SyntaxError) iex:56: syntax error before: '%{}'
+    
+iex(56)> colors = %{ red: 0xff0000, green: 0x00ff00, blue: 0x0000ff }  %{blue: 255, green: 65280, red: 16711680}
+iex(57)> bin = << 1, 2 >>
+<<1, 2>>
+iex(58)> byte_size bin
+2
+iex(59)> bin = <<3 :: size(2), 5 :: size(4), 1 :: size(2)>>
+<<213>>
+iex(60)> :io.format("~-8.2b~n", :binary.bin_to_list(bin))
+11010101
+:ok
+iex(61)> sum = fn (a, b) -> a + b end
+#Function<12.54118792/2 in :erl_eval.expr/5>
+iex(62)> sum.(1,2) 
+3
+iex(63)> greet = fn -> IO.puts "Hello" end
+#Function<20.54118792/0 in :erl_eval.expr/5>
+iex(64)> greet.()
+Hello
+:ok
+iex(65)> f1 = fn a, b -> a * b end
+#Function<12.54118792/2 in :erl_eval.expr/5>
+iex(66)> f1.(5,6)
+30
+iex(67)> f2 = fn -> 99 end
+#Function<20.54118792/0 in :erl_eval.expr/5>
+iex(68)> f2.()
+99
+iex(69)> swap = fn { a, b} -> { b, a } end
+#Function<6.54118792/1 in :erl_eval.expr/5>
+iex(70)> swap.( { 6, 8 })
+{8, 6}
+iex(71)> list_concat.([:a, :b], [:c, :d])    
+** (RuntimeError) undefined function: list_concat/0
+    
+iex(71)> list_concat = fn { a, b }, { c, d } -> { a, b, c, d } end
+#Function<12.54118792/2 in :erl_eval.expr/5>
+iex(72)> list_concat.([:a, :b], [:c, :d]) #=> [:a, :b, :c, :d]
+** (FunctionClauseError) no function clause matching in :erl_eval."-inside-an-interpreted-fun-"/2
+    
+iex(72)> list_concat.([:a, :b], [:c, :d])                     
+** (FunctionClauseError) no function clause matching in :erl_eval."-inside-an-interpreted-fun-"/2
+    
+iex(72)> sum = fn { a, b, c } -> a + b + c end                    
+#Function<6.54118792/1 in :erl_eval.expr/5>
+iex(73)> sum.(1,2,3)
+** (BadArityError) #Function<6.54118792/1 in :erl_eval.expr/5> with arity 1 called with 3 arguments (1, 2, 3)
+    
+iex(73)> sum = fn a, b, c -> a + b + c end    
+#Function<18.54118792/3 in :erl_eval.expr/5>
+iex(74)> sum.(1,2,3)                      
+6
+iex(75)> pair_tuple_to_list = fn { a, b } -> [ a, b] end  
+#Function<6.54118792/1 in :erl_eval.expr/5>
+iex(76)> pair_tuple_to_list.( { 1234, 5678 } )
+[1234, 5678]
+iex(77)> list_concat = fn [:a, :b], [:c, :d] -> [:a, :b, :c, :d] end
+#Function<12.54118792/2 in :erl_eval.expr/5>
+iex(78)> list_concat.([:a, :b], [:c, :d])
+[:a, :b, :c, :d]
+iex(79)> list_concat = fn [:a, :b], [:c, :d] -> [:a, :b, :c, d] end 
+#Function<12.54118792/2 in :erl_eval.expr/5>
+iex(80)> list_concat.([:a, :b], [:c, :d])                          
+** (RuntimeError) undefined function: d/0
+    
+iex(80)> list_concat = fn [:a, :b], [:c, :d] -> [:a, :b, :c, :d] end
+#Function<12.54118792/2 in :erl_eval.expr/5>
+iex(81)> list_concat.([:a, :b], [:c, :d])                           
+[:a, :b, :c, :d]
+iex(82)> handle_open = fn
+...(82)> {:ok, file} -> "Read data: #{IO.read(file, :line)}"
+...(82)> {_, error} -> "Error: #{:file.format_error(error)}"
+...(82)> end
+#Function<6.54118792/1 in :erl_eval.expr/5>
+iex(83)> handle_open.(File.open("code/intro/hello.exs")) # this file exists
+"Error: no such file or directory"
+iex(84)> ls
+intro     spawn     
+:ok
+iex(85)> handle_open.(File.open("/Users/admin/Source/elixir/programming-elixir/intro/hello.exs")) # this file exists            
+"Error: no such file or directory"
+iex(86)> handle_open.(File.open("hello.exs")) # this file exists       "Error: no such file or directory"           
+iex(87)> handle_open.(File.open("/Users/admin/Source/elixir/programming-elixir/01_Red_Pill/hello.exs")) # this file exists
+"Error: no such file or directory"
+iex(88)> puts "hello"
+** (RuntimeError) undefined function: puts/1
+    
+iex(88)> "hello"
+"hello"
+iex(89)> year month
+** (RuntimeError) undefined function: year/1
+    
+iex(89)> #{year} #{month}
+nil
+iex(90)> fixbuzz = fn 
+...(90)> {0, 0, _} -> "FizzBuzz"
+...(90)> {_, 0, _} -> "Buzz"    
+...(90)> {_, _, c} -> c     
+...(90)> end
+#Function<6.54118792/1 in :erl_eval.expr/5>
+iex(91)> fixbuzz.(0,0,0)
+** (BadArityError) #Function<6.54118792/1 in :erl_eval.expr/5> with arity 1 called with 3 arguments (0, 0, 0)
+    
+iex(91)> fizzbuzz = fn
+...(91)> 0,0,_ -> "FizzBuzz"
+...(91)> _,0,_ -> "Buzz"
+...(91)> _,_,c -> c
+...(91)> end
+#Function<18.54118792/3 in :erl_eval.expr/5>
+iex(92)> fizzbuzz.(0,0,0)   
+"FizzBuzz"
+iex(93)> fizzbuzz.(1,0,0)
+"Buzz"
+iex(94)> fizzbuzz.(1,2,0)
+0
+iex(95)> fizzbuzz.(1,2,asdf)
+** (RuntimeError) undefined function: asdf/0
+    
+iex(95)> fizzbuzz.(1,2,"asdf")
+"asdf"
+iex(96)> nuke = fn 
+...(96)> n -> fizzbuzz.(n,3)
+...(96)> n -> fizzbuzz.(n,5)
+...(96)> end           
+#Function<6.54118792/1 in :erl_eval.expr/5>
+iex(97)> nuke = fn            
+...(97)> n -> fizzbuzz.(rem(n,3))
+...(97)> n -> fizzbuzz.(rem(n,5))
+...(97)> n -> fizzbuzz.(n)       
+...(97)> end
+#Function<6.54118792/1 in :erl_eval.expr/5>
+iex(98)> nuke.(10)
+** (BadArityError) #Function<18.54118792/3 in :erl_eval.expr/5> with arity 3 called with 1 argument (1)
+    
+iex(98)> n = 10
+10
+iex(99)> rem(n,3)
+1
+iex(100)> rem(n,11)
+10
+iex(101)> rem(n,12)
+10
+iex(102)> rem(n,5)
+0
+iex(103)> nuke = fn
+...(103)> n -> rem(n,3), rem(n,5), n
+...(103)> end
+** (SyntaxError) iex:104: syntax error before: ','
+    
+iex(103)> n -> fizzbuzz.(rem(n,3), rem(n,5), n)
+** (SyntaxError) iex:103: syntax error before: '->'
+    
+iex(103)> nuke = fn                            
+...(103)> n -> fizzbuzz.(rem(n,3), rem(n,5), n)
+...(103)> end
+#Function<6.54118792/1 in :erl_eval.expr/5>
+iex(104)> nuke.(10)
+"Buzz"
+iex(105)> nuke.(11)
+11
+iex(106)> nuke.(12)
+12
+iex(107)> nuke.(13)
+13
+iex(108)> nuke.(12)
+12
+iex(109)> nuke.(15)
+"FizzBuzz"
+iex(110)> nuke.(15)
+"FizzBuzz"
+iex(111)> nuke.(16)
+16
+iex(112)> nuke.(17)
+17
+iex(113)> nuke.(10)
+"Buzz"
+iex(114)> nuke.(11)
+11
+iex(115)> fizz = fn
+...(115)> {0, 0, _} -> "FizzBuzz"
+...(115)> {0, _, _} -> "Fizz"    
+...(115)> {_, 0, _} -> "Buzz"
+...(115)> {_, _, c} -> c     
+...(115)> end
+#Function<6.54118792/1 in :erl_eval.expr/5>
+iex(116)> buzz = fn
+...(116)> n -> fizz.(rem(n,3))    
+...(116)> n -> fizz.(rem(n,5))
+...(116)> n -> fizzbuzz.(n)   
+...(116)> end
+#Function<6.54118792/1 in :erl_eval.expr/5>
+iex(117)> buzz(10)
+** (RuntimeError) undefined function: buzz/1
+    
+iex(117)> buzz = fn           
+...(117)> n -> fizz.(rem(n,3))
+...(117)> n -> fizz.(rem(n,5))
+...(117)> n -> fizz.(n)       
+...(117)> end
+#Function<6.54118792/1 in :erl_eval.expr/5>
+iex(118)> buzz(10)
+** (RuntimeError) undefined function: buzz/1
+    
+iex(118)> buzz.(10)
+** (FunctionClauseError) no function clause matching in :erl_eval."-inside-an-interpreted-fun-"/1
+    
+iex(118)> nuke.(10)
+"Buzz"
+iex(119)> buzz.(10)
+** (FunctionClauseError) no function clause matching in :erl_eval."-inside-an-interpreted-fun-"/1
+    
+iex(119)> buzz = fn  
+...(119)> n -> fizz.(rem(n,3)) 
+...(119)> n -> fizz.(rem(n,5)) 
+...(119)> {_, _, c} -> c
+...(119)> end
+#Function<6.54118792/1 in :erl_eval.expr/5>
+iex(120)> buzz.(10)
+** (FunctionClauseError) no function clause matching in :erl_eval."-inside-an-interpreted-fun-"/1
+    
+iex(120)> fizz.(rem(n,3))
+** (FunctionClauseError) no function clause matching in :erl_eval."-inside-an-interpreted-fun-"/1
+    
+iex(120)> fizz(0,0,0)
+** (RuntimeError) undefined function: fizz/3
+    
+iex(120)> fizz = fn
+...(120)> {0, 0, _} -> "FizzBuzz"
+...(120)> {0, _, _} -> "Fizz"    
+...(120)> {_, 0, _} -> "Buzz"
+...(120)> {_, _, c} -> c     
+...(120)> end
+#Function<6.54118792/1 in :erl_eval.expr/5>
+iex(121)> buzz.(10)
+** (FunctionClauseError) no function clause matching in :erl_eval."-inside-an-interpreted-fun-"/1
+    
+iex(121)> nuke.(10)
+"Buzz"
+iex(122)> nuke.(11)
+11
+iex(123)> nuke.(12)
+12
+iex(124)> nuke.(13)
+13
+iex(125)> nuke.(14)
+14
+iex(126)> fizz = fn
+...(126)> 0,0,_ -> "FizzBuzz"
+...(126)> 0,_,_ -> "Fizz"
+...(126)> _,0,_ -> "Buzz"
+...(126)> _,_,c -> c
+...(126)> end
+#Function<18.54118792/3 in :erl_eval.expr/5>
+iex(127)> buzz.(10)
+** (FunctionClauseError) no function clause matching in :erl_eval."-inside-an-interpreted-fun-"/1
+    
+iex(127)> fizz.(0,0,_) 
+** (CompileError) iex:127: unbound variable _
+    (elixir) src/elixir_translator.erl:344: :elixir_translator.translate_arg/3
+    (stdlib) lists.erl:1353: :lists.mapfoldl/3
+    (stdlib) lists.erl:1354: :lists.mapfoldl/3
+    (elixir) src/elixir_translator.erl:287: :elixir_translator.translate/2
+iex(127)> test = fn (a, b) -> a * b end
+#Function<12.54118792/2 in :erl_eval.expr/5>
+iex(128)> test.(2*2)
+** (BadArityError) #Function<12.54118792/2 in :erl_eval.expr/5> with arity 2 called with 1 argument (4)
+    
+iex(128)> test = fn {a, b} -> a * b end
+#Function<6.54118792/1 in :erl_eval.expr/5>
+iex(129)> test.(2*2)                   
+** (FunctionClauseError) no function clause matching in :erl_eval."-inside-an-interpreted-fun-"/1
+    
+iex(129)> test.({2*2})
+** (FunctionClauseError) no function clause matching in :erl_eval."-inside-an-interpreted-fun-"/1
+    
+iex(129)> test = fn (a, b) -> a * b end
+#Function<12.54118792/2 in :erl_eval.expr/5>
+iex(130)> test.(1,1)
+1
+iex(131)> test.(2,2)
+4
+iex(132)> test.(2,3)
+6
+iex(133)> fizz = fn
+...(133)> (0,0,_) -> "FizzBuzz"
+...(133)> (0,_,_) -> "Fizz"    
+...(133)> (_,0,_) -> "Buzz"
+...(133)> (_,_,c) -> c     
+...(133)> end
+#Function<18.54118792/3 in :erl_eval.expr/5>
+iex(134)> fizz.(10)
+** (BadArityError) #Function<18.54118792/3 in :erl_eval.expr/5> with arity 3 called with 1 argument (10)
+    
+iex(134)> fizz.(0,0,1) 
+"FizzBuzz"
+iex(135)> fizz.(0,1,1)
+"Fizz"
+iex(136)> buzz(10)
+** (RuntimeError) undefined function: buzz/1
+    
+iex(136)> buzz.(10)
+** (FunctionClauseError) no function clause matching in :erl_eval."-inside-an-interpreted-fun-"/1
+    
+iex(136)> buzz = fn
+...(136)> (n) -> fizz.(rem(n,3)) 
+...(136)> (n) -> fizz.(rem(n,5))
+...(136)> (n) -> n              
+...(136)> end
+#Function<6.54118792/1 in :erl_eval.expr/5>
+iex(137)> buzz.(10)
+** (BadArityError) #Function<18.54118792/3 in :erl_eval.expr/5> with arity 3 called with 1 argument (1)
+    
+iex(137)> fizz(1,0,3)
+** (RuntimeError) undefined function: fizz/3
+    
+iex(137)> fizz.(1,0,3)
+"Buzz"
+iex(138)> buzz = fn             
+...(138)> (n) -> fizz.(rem(n,3))
+...(138)> (n) -> fizz.(rem(n,5))
+...(138)> (n) -> fizz.(n)
+...(138)> end
+#Function<6.54118792/1 in :erl_eval.expr/5>
+iex(139)> buzz.(10)
+** (BadArityError) #Function<18.54118792/3 in :erl_eval.expr/5> with arity 3 called with 1 argument (1)
+    
+iex(139)> fizz(0,0,0)
+** (RuntimeError) undefined function: fizz/3
+    
+iex(139)> fizz.(0,0,0)
+"FizzBuzz"
+iex(140)> fizz.(1,0,0)
+"Buzz"
+iex(141)> fizz.(0,1,0)
+"Fizz"
+iex(142)> fizz.(1,1,0)
+0
+iex(143)> fizz.(rem(10,3))
+** (BadArityError) #Function<18.54118792/3 in :erl_eval.expr/5> with arity 3 called with 1 argument (1)
+    
+iex(143)> buzz = fn
+...(143)> (n) -> (fizz.(remn,3), fizz.(remn,5), fizz.(n))
+...(143)> end
+** (SyntaxError) iex:144: syntax error before: ')'
+    
+iex(143)> buzz = fn                                      
+...(143)> (n) -> fizz.((remn,3), fizz.(remn,5), fizz.(n))
+...(143)> end                                            
+** (SyntaxError) iex:144: syntax error before: ')'
+    
+iex(143)> (n) -> fizz.((rem(n,3), fizz.(rem(n,5), fizz.(n))
+...(143)> buzz = fn                                        
+...(143)> (n) -> fizz.((rem(n,3), fizz.(rem(n,5), fizz.(n))
+...(143)> end
+** (SyntaxError) iex:146: "(" starting at line 145 is missing terminator ")". Unexpected token: end
+    
+iex(143)> really hatings using the repl right now
+** (RuntimeError) undefined function: now/0
+    
+iex(143)> buzz = fn                                        
+...(143)> (n) -> fizz.((rem(n,3), (rem(n,5), (n))          
+...(143)> end
+** (SyntaxError) iex:145: "(" starting at line 144 is missing terminator ")". Unexpected token: end
+    
+iex(143)> buzz = fn                              
+...(143)> (n) -> fizz.( rem(n,3), rem(n,5), n )    
+...(143)> end
+#Function<6.54118792/1 in :erl_eval.expr/5>
+iex(144)> buzz.(10)
+"Buzz"
+iex(145)> buzz.(11)
+11
+iex(146)> buzz.(12)
+"Fizz"
+iex(147)> buzz.(13)
+13
+iex(148)> fun1 = fn -> fn -> "Hello" end end
+#Function<20.54118792/0 in :erl_eval.expr/5>
+iex(149)> fun1.()
+#Function<20.54118792/0 in :erl_eval.expr/5>
+iex(150)> fun1.().()
+"Hello"
+iex(151)> fun1 = fn -> (fn -> "Hello" end) end
+#Function<20.54118792/0 in :erl_eval.expr/5>
+iex(152)> other = fun1.()
+#Function<20.54118792/0 in :erl_eval.expr/5>
+iex(153)> other.()
+"Hello"
+iex(154)> greeter = fn name -> (fn -> "Hello #{name}" end) end
+#Function<6.54118792/1 in :erl_eval.expr/5>
+iex(155)> dave_greeter = greeter.("Dave")
+#Function<20.54118792/0 in :erl_eval.expr/5>
+iex(156)> dave_greeter.() 
+"Hello Dave"
+iex(157)> dave_greeter.()
+"Hello Dave"
+iex(158)> add_n = fn n -> (fn other -> n + other end) end
+#Function<6.54118792/1 in :erl_eval.expr/5>
+iex(159)> add_two = add_n.(2)
+#Function<6.54118792/1 in :erl_eval.expr/5>
+iex(160)> add_two = add_n.(5)
+#Function<6.54118792/1 in :erl_eval.expr/5>
+iex(161)> add_two.(3)
+8
+iex(162)> 
+prefix = fn a -> (fn b -> "#{a} #{b}" end) end
+#Function<6.54118792/1 in :erl_eval.expr/5>
+iex(7)> mrs = prefix.("Mrs")
+#Function<6.54118792/1 in :erl_eval.expr/5>
+iex(8)> mrs.("Robinson")
+"Mrs Robinson"
+iex(1)> times_2 = fn n -> n * 2 end
+#Function<6.54118792/1 in :erl_eval.expr/5>
+iex(2)> apply = fn (fun, value) -> fun.(value) end
+#Function<12.54118792/2 in :erl_eval.expr/5>
+iex(3)> apply.(time_2, 6)
+** (RuntimeError) undefined function: time_2/0
+    
+iex(3)> apply.(times_2, 6)
+12
+iex(1)> list = [1, 3, 5, 7, 9]
+[1, 3, 5, 7, 9]
+iex(2)> Enum.map list, fn elem -> elem * 2 end
+[2, 6, 10, 14, 18]
+iex(3)> Enum.map list, fn elem -> elem * elem end
+[1, 9, 25, 49, 81]
+iex(4)> Enum.map list, fn elem -> elem > 6 end   
+[false, false, false, true, true]
+iex(5)> add_one = &(&1 + 1) # same as add_one = fn (n) -> n + 1 end
+#Function<6.54118792/1 in :erl_eval.expr/5>
+iex(6)> add_one.(44)
+45
+iex(7)> square = &(&1 * &1)
+#Function<6.54118792/1 in :erl_eval.expr/5>
+iex(8)> square.(8)
+64
+iex(9)> speak = &(Io.puts(&1))
+
+19:34:23.958 [error] beam/beam_load.c(1278): Error loading module 'Elixir.Io':
+  module name in object code is Elixir.IO
+
+
+&Io.puts/1
+
+19:34:23.960 [error] Loading of /usr/local/Cellar/elixir/1.0.5/bin/../lib/elixir/ebin/Elixir.Io.beam failed: :badfile
+
+iex(10)> speak = &(IO.puts(&1))
+&IO.puts/1
+iex(11)> speak.("Hello")
+Hello
+:ok
+iex(12)> add_two = &(&1 + 1, &2 + 2)
+** (SyntaxError) iex:12: syntax error before: ')'
+    
+iex(12)> square = &(&1 * &1)
+#Function<6.54118792/1 in :erl_eval.expr/5>
+iex(13)> square.(8)
+64
+iex(14)> speak = &(IO.puts(&1))
+&IO.puts/1
+iex(15)> add_two = &(&1 + &2)
+&:erlang.+/2
+iex(16)> add_two(2, 3)
+** (RuntimeError) undefined function: add_two/2
+    
+iex(16)> add_two.(2, 3)
+5
+iex(17)> rnd = &(Float.round(&1, &2)) 
+&Float.round/2
+iex(18)> rnd = &(Float.round(&2, &2))
+** (CompileError) iex:18: capture &2 cannot be defined without &1
+    (elixir) src/elixir_fn.erl:112: :elixir_fn.do_capture/4
+    (elixir) src/elixir_exp.erl:229: :elixir_exp.expand/2
+    (elixir) src/elixir_exp.erl:10: :elixir_exp.expand/2
+iex(18)> rnd = &(Float.round(&2, &1))
+#Function<12.54118792/2 in :erl_eval.expr/5>
+iex(19)> l = &length/1
+&:erlang.length/1
+iex(20)> &:erlang.length/1
+&:erlang.length/1
+iex(21)> l.([1,3,5,7])
+4
+iex(22)> m = &Kernel.min/2
+&:erlang.min/2
+iex(23)> &:erlang.min/2
+&:erlang.min/2
+iex(24)> m.(99,88)
+88
+iex(25)> Enum.map [1,2,3,4], &(&1 + 1)
+[2, 3, 4, 5]
+iex(26)> Enum.map [1,2,3,4], &(&1 * &1)
+[1, 4, 9, 16]
+iex(27)> Enum.map [1,2,3,4], &(&1 < 3)
+[true, true, false, false]
+iex(28)> Enum.map[1,2,3,4], fn x -> x + 2 end
+** (SyntaxError) iex:28: syntax error before: 2
+    
+iex(28)> Enum.map [1,2,3,4], &(&1 + 2) end   
+** (SyntaxError) iex:28: unexpected token: end
+    
+iex(28)> Enum.map [1,2,3,4], &(&1 + 1)       
+[2, 3, 4, 5]
+iex(29)> Enum.map [1,2,3,4], &(&1 + 2)       
+[3, 4, 5, 6]
+iex(1)> Enum.map [1,2,3,4], &(&1 + 1)    
+[2, 3, 4, 5]
+iex(2)> Enum.map [1,2,3,4], &(inspect &1)
+["1", "2", "3", "4"]
+iex(3)> h IO.inspect
+
+                     def inspect(item, opts \\ [])                     
+
+Inspects and writes the given argument to the device.
+
+It enables pretty printing by default with width of 80 characters. The
+width can be changed by explicitly passing the :width option.
+
+Examples
+
+┃ IO.inspect Process.list, width: 40
+
+
+                    def inspect(device, item, opts)                    
+
+Inspects the item with options using the given device.
+

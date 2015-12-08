@@ -9,9 +9,9 @@ defmodule Exercises do
   ## is y zero? gcd(x,y) -> x
   ## gcd(y, rem(x,y))
 
-  #  def gcd(-x,-y), do: 0
-  def gcd(x,_) when (x < 0), do: IO.puts "negative number"
-  def gcd(_,y) when (y < 0), do: IO.puts "negative number"
+  def gcd(x,y) when ((x * y)) < 0 do 
+    IO.puts "please enter only positive integers"
+  end
   def gcd(0,0), do: 0
   def gcd(x,0), do: x
   def gcd(x,y), do: gcd(y, rem(x,y))

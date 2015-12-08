@@ -15,5 +15,11 @@ defmodule Exercises do
   def gcd(0,0), do: 0
   def gcd(x,0), do: x
   def gcd(x,y), do: gcd(y, rem(x,y))
-  
+
+  # Exercise ?: I'm thinking of a number between 1 and 1000...
+  #  def guess(actual \\ 1, range \\ 1..1000)
+
+  #  def guess(actual, range) do
+  #  IO.puts div(actual,div(range,2))
+  #  end
 end

@@ -19,6 +19,11 @@ defmodule Exercises do
   # Exercise ?: I'm thinking of a number between 1 and 1000...
   #  def guess(actual \\ 1, range \\ 1..1000)
 
+  def input(current), do: IO.puts current
+
+  def guess(actual \\ 500, range \\ 1..1000)
+  def guess(actual, range), do: IO.puts range
+
   #  def guess(actual, range) do
   #  IO.puts div(actual,div(range,2))
   #  end

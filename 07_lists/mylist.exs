@@ -3,7 +3,7 @@ defmodule MyList do
   ## Length of an empty list is 0
   def len([]), do: 0
   ## length of a list is 1 plus the length of tha list's tail
-  def len([_head|tail]), do: 1 + len(tail)
+  def len([_head | tail]), do: 1 + len(tail)
 
   # Using Head and Tail to Build a list
   ## square inputs
